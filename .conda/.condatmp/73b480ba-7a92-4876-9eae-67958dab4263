@@ -1,0 +1,13 @@
+prefix=c:/Users/adeda/Downloads/train-yolov8-custom-dataset-step-by-step-guide-master/.conda/Library
+exec_prefix=c:/Users/adeda/Downloads/train-yolov8-custom-dataset-step-by-step-guide-master/.conda/Library
+libdir=c:/Users/adeda/Downloads/train-yolov8-custom-dataset-step-by-step-guide-master/.conda/Library/lib
+sharedlibdir=c:/Users/adeda/Downloads/train-yolov8-custom-dataset-step-by-step-guide-master/.conda/Library/lib
+includedir=c:/Users/adeda/Downloads/train-yolov8-custom-dataset-step-by-step-guide-master/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
